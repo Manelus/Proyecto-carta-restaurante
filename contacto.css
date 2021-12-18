@@ -1,5 +1,5 @@
 .body{
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   font-family: Comic Sans MS; 
    color: orangered;
    background-color: black;
    
@@ -9,7 +9,7 @@
 }
 .letra{
     text-shadow: 2px 3px orange;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-family: Comic Sans MS; 
     color: orangered;
 }
 h1{
@@ -23,6 +23,6 @@ h1{
     top: 5px;
 }
 .luffy{
-    height: 100em;
-    width: 25em;
+    width: 5em;
+    height: 2em;
 }
