@@ -1,0 +1,28 @@
+.body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   color: orangered;
+   background-color: black;
+   
+}
+.formulario{
+    margin-left: 5em;
+}
+.letra{
+    text-shadow: 2px 3px orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: orangered;
+}
+h1{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.imagen{
+    height: 9em;
+    width: 700px;
+    margin-left: 25%;
+    top: 5px;
+}
+.luffy{
+    height: 100em;
+    width: 25em;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Mutenroshi Ramen</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="/contacto.css" rel="stylesheet">
+    </head>
+    <body class="body">
+        
+        <!--Encabezado-->
+        <div> <img src="/img/logograndeletra.png" class="imagen"></div>
+        
+
+        <!--Menú-->
+        <header><ul>
+            <li><a href="index.html" title="Inicio">Inicio</a></li>
+            <li><a href="contacto.html" title="Contacto" >Contacto</a></li>
+            <li><a href="menu.html" title="Menu">Menu</a></li>
+        </ul></header>
+        
+        <hr/>
+
+        <!--Contenido de contenidos.html-->
+        <div class="formulario">
+        <h2 class="letra">Reserva tu mesa:</h2>
+        <form>
+        <div class="body">
+           <p> 
+               <label for="nombre">Nombre</label> <br/>
+               <input type="text" name="nombre"/>
+           </p>
+           <div>
+               <label for="personas">Personas</label> </br> 
+               <select name="personas">
+                <option value="uno">1</option>
+                <option value="dos">2</option>
+                <option value="tres">3</option>
+                <option value="cuatro">4</option>
+                <option value="cinco">5</option>
+                <option value="seis">6</option>
+                </select>
+            </div>
+            
+            <div>
+               <label for="niños">Niños</label><br/>
+               <select name="niños">
+                <option value="uno">1</option>
+                <option value="dos">2</option>
+                <option value="tres">3</option>
+                <option value="cuatro">4</option>
+                <option value="cinco">5</option>
+                <option value="seis">6</option>
+                </select>
+
+            </div>
+            <div>
+                <label for="mail">direccion mail</label> <br/>
+                <input type="text" name="mail"/>
+            </div>
+            <div>
+                <label for="covid">Pasaporte Covid</label><br/>
+                <select name="obligatorio">
+                <option value="si">si</option>
+                <option value="no">no</option>
+                </select>
+                <p>*Recordar que es obligatorio mostrarlo en la entrada</p>
+            </div>
+            <input type="submit" value="Enviar petición">
+        </form>
+        </div>
+        <br>
+        <div class="luffy"> <img class="rounded float-right" src="/img/naruto.png" ></div>
+        <footer>By Axcrima</footer>
+        </div>
+    </body>
+</html>
