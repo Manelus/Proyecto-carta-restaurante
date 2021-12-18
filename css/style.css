@@ -1,0 +1,32 @@
+*{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    border-bottom: solid 2px orange;
+    height: 4em;
+}
+
+footer{
+    background-color: rgb(177, 177, 177);
+}
+
+.altura{
+    height: 100%;
+}
+
+.anchura{
+    width: 100%;
+}
+
+.logocabecera img{
+    height: 3em;
+}
+
+.logocuerpo{
+    background-image: url(/Repositorios/Proyecto-carta-restaurante/img/logogrande.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 19em;
+}
