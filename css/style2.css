@@ -30,51 +30,64 @@ nav a:hover{
     max-height: 40em;
 }
 
-@media (min-width: 992px) {
-    .carousel{
-        width: 75%;
-        margin: 0 auto;
 
-    }
-    
-}
 
 /*=======================================================================*/
 /*Sobre Nosotros*/
 /*=======================================================================*/
 
+.arigato{
+    border-top: solid 2px orangered;
+    border-bottom: solid 2px orangered;
+    padding: 3em 0 ;
+    margin: 0 10%;
+}
+
 .arigato p{
     margin: 0 auto;
-    max-width: 80%;
 }
   
 /*=======================================================================*/
 /*Carta*/
 /*=======================================================================*/
 
-.menuAdultos{
-    background-image: url(/Repositorios/Proyecto-carta-restaurante/img/menúadultos.gif);
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: cover;
-    height: 15em;
-}
-
-.menuNiños{
-    background-image: url(/Repositorios/Proyecto-carta-restaurante/img/menúniño.gif);
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: cover;
-    height: 15em;
-}
-
 .card{
-    width: 40em;
+    width:70%;
 }
 
+/*=======================================================================*/
+/*Footer*/
+/*=======================================================================*/
 
-/*@media (max-width: 991px) {
-    .menuNiños{
-        margin-top: 1.5em;
+footer{
+    border-top: solid 2px orangered;
+}
+
+footer p{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-size: .7em;
+}
+
+/*=======================================================================*/
+/*Media Queries*/
+/*=======================================================================*/
+
+@media (max-width: 576px) {
+    .card{
+        width: 100%;
     }
-}*/
+
+    .cartaNiños {
+        margin-top: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel{
+        width: 80%;
+        margin: 0 auto;
+
+    }
+    
+}
