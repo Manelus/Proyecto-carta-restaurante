@@ -1,12 +1,13 @@
+*{
+    color: orangered !important;
+}
 .body{
    font-family: Comic Sans MS; 
    color: orangered;
    background-color: black;
    
 }
-.formulario{
-    margin-left: 5em;
-}
+
 .letra{
     text-shadow: 2px 3px orange;
     font-family: Comic Sans MS; 
@@ -22,7 +23,18 @@ h1{
     margin-left: 25%;
     top: 5px;
 }
-.luffy{
-    width: 5em;
-    height: 2em;
+
+.box{
+    width: 75%;
+    height: 75%;
+}
+img{
+   height: 100%;
+   width: 100%;
+}
+.formulario{
+    object-fit: cover;
+}
+.naruto{
+   object-fit: contain;
 }
