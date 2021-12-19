@@ -18,27 +18,31 @@ h1{
     margin-left: 20%;
     margin-top: 5%;
 }
-.imagen{
-    height: 5em;
-    width: 500px;
-    margin-left: 25%;
-    top: 5px;
-}
-
 
 img{
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
+    margin-left: 5%;
+    position: relative; 
+    bottom:4px; 
+    left: 5px;
 }
 .formulario{
     margin-left: 5%; 
 }
-.naruto{
-    margin-left: 45%; 
-}
+
 .Contacto{
     margin-left: 5%;
+    font-size: 15px;
 }
 .foot{
     text-align: center;
+}
+@media only screen and (max-width: 1170px) {
+    .body {
+        width: 100%;
+        padding-left: 23px;
+        flex-direction: row;
+      }
+    
 }
