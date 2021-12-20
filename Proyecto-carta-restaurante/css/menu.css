@@ -1,0 +1,40 @@
+*{
+    
+    text-align: center;
+    color:orangered!important;
+   font-family: Comic Sans MS;
+}
+.menuadulto{
+
+background-color: rgb(29, 28, 28);
+color:orangered;
+font-family :Comic Sans MS;
+}
+
+.menuinfantil{
+
+background-color: rgb(29, 28, 28);
+color:orangered;
+font-family :Comic Sans MS;
+
+
+
+}
+body{
+   background-color: rgb(29, 28, 28)!important;
+    height: 100%;
+}
+footer{
+    border-top: solid 2px orangered;
+}
+footer p{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-size: .7em;
+}
+.titulomenu2{
+text-shadow: 2px 3px orange;
+}
+.titulomenu1{
+text-shadow: 2px 3px orange;
+}
