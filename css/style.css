@@ -15,6 +15,13 @@ body{
 /*Estilos barra de navegación*/
 /*=======================================================================*/
 
+nav{
+    position: fixed!important;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
 nav a{
     text-align: end;
 }
@@ -32,6 +39,7 @@ nav a:hover{
 
 .carousel img {
     max-height: 40em;
+    margin-top: 3.5em;
 }
 
 

@@ -35,9 +35,36 @@ img{
     margin-left: 5%;
     font-size: 15px;
 }
-.foot{
+footer{
+    border-top: solid 2px orangered;
     text-align: center;
 }
+
+footer p{
+    margin-top: .5em;
+    font-size: .7em;
+}
+
+nav{
+    position: fixed!important;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav a{
+    text-align: end;
+}
+
+nav a:hover{
+    text-shadow: 2px 2px 5px orangered;
+    
+}
+
+.cuerpo{
+    margin-top: 3.5em;
+}
+
 @media only screen and (max-width: 1170px) {
     .body {
         width: 100%;
