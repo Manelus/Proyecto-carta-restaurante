@@ -82,6 +82,31 @@ footer p{
 }
 
 /*=======================================================================*/
+/*Reserva*/
+/*=======================================================================*/
+
+.reservaButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservaButton h4{
+    border: solid 2px orangered;
+    border-radius: 10px;
+    padding: .5em 1em;
+
+}
+
+.reservaButton h4:hover, .reservaButton h4:focus{
+    border: solid 2px orangered;
+    background-color: orangered;
+    color: white!important;
+    border-radius: 10px;
+    padding: .5em 1em;
+}
+
+/*=======================================================================*/
 /*Media Queries*/
 /*=======================================================================*/
 
