@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+        <title>Mutenroshi Ramen</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="/contacto.css" rel="stylesheet">
+    </head>
+    <body class="body">
+        
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand ms-3" href="#">Mutenroshi Ramen</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="container d-flex justify-content-end me-lg-0 me-md-1 pe-lg-0">
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item me-lg-5">
+                                    <a class="nav-link active" href="#">Home</a>
+                                </li>
+                                <li class="nav-item me-lg-4 dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Carta</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li>
+                                            <a class="dropdown-item" href="#">Menú Adultos</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Menú Niños</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item me-lg-5">
+                                    <a class="nav-link" href="#">Reserva</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <h2 class="letra">Reserva tu mesa:</h2>
+        <div class="body">
+            <div class="box"><form class="formulario" >
+        
+        
+            <div>
+            <div> 
+               <label for="nombre">Nombre reserva:</label> <br/>
+               
+               <input type="text" name="nombre"/>
+               
+            </div>
+            
+            <table>
+                <label for="dia">Dia:</label><br/>
+                <select name="dia">
+                    <option value="lunes">Lunes</option>
+                    <option value="martes">Martes</option>
+                    <option value="miercoles">Miercoles</option>
+                    <option value="jueves">Jueves</option>
+                    <option value="viernes">Viernes</option>
+                    <option value="sabado">Sabado</option>
+                    <option value="domingo">Domingo</option> 
+                </select>
+                </table>
+                <table>
+                <label for="hora">Hora:</label><br/>
+                <select name="hora">
+                    <option value="12:00">12:00</option>
+                    <option value="13:00">13:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="20:00">20:00</option>
+                    <option value="21:00">21:00</option>
+                    <option value="22:00">22:00</option>
+                    <option value="23:00">23:00</option>
+                </select>
+                </table>
+                <p>El horario es de 12:00/16:00 y de 20:00/00:00 de Lunes a Domingo.</p>
+                
+            <div>
+               <label for="Adultos">Adultos:</label> </br> 
+               <select name="Adultos">
+                <option value="cero">0</option>
+                <option value="uno">1</option>
+                <option value="dos">2</option>
+                <option value="tres">3</option>
+                <option value="cuatro">4</option>
+                <option value="cinco">5</option>
+                <option value="seis">6</option>
+                </select>
+            </div>
+             
+            <div>
+               <label for="niños">Niños:</label><br/>
+               <select name="niños">
+                <option value="cero">0</option>
+                <option value="uno">1</option>
+                <option value="dos">2</option>
+                <option value="tres">3</option>
+                <option value="cuatro">4</option>
+                <option value="cinco">5</option>
+                <option value="seis">6</option>
+                </select>
+
+            </div>
+            <div>
+                <label for="mail">direccion mail:</label> <br/>
+                <input type="text" name="mail"/>
+            </div>
+            <div>
+                <label for="covid">Pasaporte Covid:</label><br/>
+                <select name="obligatorio">
+                <option value="si">si</option>
+                <option value="no">no</option>
+                </select>
+                <p>*Recordar que es obligatorio mostrarlo en la entrada.</p>
+            </div>
+        
+            
+            <input type="submit" value="Enviar petición">
+
+            
+        </div>
+        </form></div></br>
+        <div class="box"><img src="/img/naruto-ramen.gif" class="naruto" ></div>
+
+        <div class="Contacto"><h2>Contacto</h2>
+        <p>Nuestro restaurante Mutenroshi Ramen está ubicado cerca <br>
+        de la Avenida Diagonal, en uno de los barrios más bonitos  <br>
+        de Barcelona- el Barrio de Gracia.</p>
+        <p> Tel: 931 64 20 07</p>
+        <h3>Barcelona</h3>
+        <p> Carrer Sant Agustí, 10 <br>
+        administracion@mutenroshi.com </p>
+        </div>
+
+
+        
+        
+            
+        </div></br>
+        <footer class="foot">By Axchrima</footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+        
+    </body>
+</html>

@@ -1,0 +1,48 @@
+*{
+    color: orangered !important;
+}
+.body{
+   font-family: Comic Sans MS; 
+   color: orangered;
+   background-color: rgb(29, 28, 28);
+   
+}
+
+.letra{
+    text-shadow: 2px 3px orange;
+    font-family: Comic Sans MS; 
+    color: orangered;
+    margin-left: 5%;
+}
+h1{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+img{
+    height: 40%;
+    width: 40%;
+    margin-left: 5%;
+    position: relative; 
+    bottom:4px; 
+    left: 5px;
+}
+.formulario{
+    margin-left: 5%; 
+}
+
+.Contacto{
+    margin-left: 5%;
+    font-size: 15px;
+}
+.foot{
+    text-align: center;
+}
+@media only screen and (max-width: 1170px) {
+    .body {
+        width: 100%;
+        
+        flex-direction: row;
+      }
+    
+}
